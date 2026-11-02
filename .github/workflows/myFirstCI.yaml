@@ -4,13 +4,15 @@ on:
 
 jobs:
   FisrtJob:
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
     steps:
     - name: stepUno
       uses: actions/checkout@v4
-      
-      
     - name: deps
+      if: ${{ runner.os == 'Linux' }}
       run: |
         sudo apt-get install libsdl2-ttf-dev libsdl2-dev
     - name: stepDuo
