@@ -21,4 +21,4 @@ jobs:
 
     - name: stepTres
       run: |
-        ./build/Release/sobel
+        ./bin/make/Release/sobel
