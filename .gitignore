@@ -1,4 +1,5 @@
 /bin
+/build
 /dat
 /lib/*
 !/lib/cmake_modules
