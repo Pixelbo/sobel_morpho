@@ -69,7 +69,7 @@ Réutilisez le [projet git](https://github.com/QLOG-5EII/sobel_morpho) de la fin
 
 Les workflows Github Actions sont des documents au format `yaml` à mettre dans le répertoire `.github/workflows/` du répo git.
 
-Vous pouvez trouver un rappel de la syntax des workflow dans la [GitHub Actions Cheat Sheet](https://resources.github.com/actions/github-actions-cheat/).
+Vous pouvez trouver un rappel de la syntax des workflows dans la [GitHub Actions Cheat Sheet](https://github.github.io/actions-cheat-sheet/actions-cheat-sheet.pdf).
 
 ### Workflow Github Actions pour CI dans un environnement Ubuntu.
 
