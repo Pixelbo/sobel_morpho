@@ -9,8 +9,13 @@ jobs:
     - name: stepUno
       uses: actions/checkout@v4
       
+      
+    - name: deps
+      run: |
+        sudo apt-get install libsdl2-ttf-dev libsdl2-dev
     - name: stepDuo
       run: |
+        
         ./CMakeGCC.sh
 
     - name: stepTres
