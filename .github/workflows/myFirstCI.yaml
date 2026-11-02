@@ -15,9 +15,10 @@ jobs:
         sudo apt-get install libsdl2-ttf-dev libsdl2-dev
     - name: stepDuo
       run: |
-        
         ./CMakeGCC.sh
+        make -C ./bin/make
+
 
     - name: stepTres
       run: |
-        ./build/Debug/sobel
+        ./build/Release/sobel
